@@ -1,5 +1,47 @@
 /*
-Theme Name: Rewild Project Theme
-Author: Equipo Rewild
+Theme Name: ReWild Project Theme
+Author: Equipo ReWild (Ricardo Stefan Vieriu, Daniel Aguilera Zarzuela, Santiago Seivane)
 Version: 1.0
 */
+body.admin-bar #nav {
+    margin-top: 32px;
+}
+
+body.admin-bar #header {
+    margin-top: 32px;
+}
+.social-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 110px);
+	justify-content: center;
+	gap: 20px 24px;
+	margin-top: 1.5em;
+}
+
+.social-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	text-decoration: none;
+	color: #333;
+	width: 110px;
+	min-height: 80px;
+	text-align: center;
+}
+
+.social-item img {
+	display: block;
+	margin: 0 auto 8px auto;
+}
+
+.social-item span {
+	display: block;
+	font-size: 0.95em;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.social-item:hover {
+	transform: translateY(-2px);
+}
