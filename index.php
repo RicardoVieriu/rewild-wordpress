@@ -1,9 +1,7 @@
-<?php
-get_header();
-?>
+<?php get_header(); ?>
 
-<h1>Rewild Project</h1>
+<main class="container">
+	<h1>Página base del tema</h1>
+</main>
 
-<?php
-get_footer();
-?>
+<?php get_footer(); ?>
