@@ -29,7 +29,7 @@ get_header();
 					</header>
 
 					<div class="contact-form-wrapper">
-						<?php echo do_shortcode('[wpforms id="21"]'); ?>
+						<?php echo do_shortcode('[wpforms id="36"]'); ?>
 					</div>
 				</section>
 			</div>
@@ -43,8 +43,8 @@ get_header();
 					<section>
 						<h3>Email</h3>
 						<p>
-							<a href="mailto:ricardovieriu1913@alumnos.alborfp.com">
-								ricardovieriu1913@alumnos.alborfp.com
+							<a href="mailto:presidenciarewildproject@gmail.com">
+								presidenciarewildproject@gmail.com
 							</a>
 						</p>
 
